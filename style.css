@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+li, ul {
+    list-style: none;
+}
+
+.app-card{
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    box-shadow: -1px -1px 2px grey, 1px 1px 2px grey;
+    width: 500px;
+    padding: 30px 0;
+    border-radius: 30px;
+}
+
+h1{
+    margin-bottom: 80px;
+    color: rgb(143, 190, 47);
+    text-shadow: -1px 1px 2px lightgray;
+}
+
+.add-task, .clear-tasks{
+    font-size: 16px;
+    box-shadow: -1px 1px 2px lightgray;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.input{
+    font-size: 16px;
+    width: 350px;
+    /* background-color: whitesmoke; */
+    box-shadow: -0.5px 0.5px 2px lightgray;
+    /* border: none; */
+    /* border: 0.5px solid blueviolet; */
+    border: 0.5px solid rgb(145, 145, 145);
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-right: 5px;
+}
+
+.add-task{
+    /* background-color: blueviolet; */
+    background-color: lightseagreen;
+    width: 30pxs;
+    border: 0.5px solid rgb(145, 145, 145);
+}
+
+.clear-tasks{
+    background-color: rgb(44, 44, 44);
+    width: fit-content;
+}
+
+.task-list{
+    display: none;
+    flex-direction: column;
+    gap: 7px;
+    /* background-color: bisque; */
+    background-color: lightseagreen;
+    border-radius: 30px;
+    padding: 15px 15px;
+}
+
+.list-card{
+    text-indent: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: white;
+    width: 400px;
+    box-shadow: -1px 0.5px 1px lightgray;
+    border-radius: 30px;
+}
+
+.delete{
+    color: white;
+    background-color: rgb(253, 84, 84);
+    border: none;
+    padding: 1% 2%;
+    border-radius: 15px;
+}
